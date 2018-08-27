@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://10.0.0.3/control/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>RE-MAZ online order</title>
+        <link rel="stylesheet" href="./fdhsghf_files/base.css">
+        <link rel="stylesheet" href="./fdhsghf_files/slider.css">
+        <link rel="stylesheet" href="./fdhsghf_files/c13.css">
+        <link rel="stylesheet" href="./fdhsghf_files/jquery-ui.css">
+
+        <style>
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <h1>RE-MAZ smoothie bar</h1>
+        </header>
+        <section>
+            <form name="order" method="post" action="http://10.0.0.3/control/#">
+                <div class="slider">
+                    <div class="slide-viewer">
+                        <div class="slide-group">
+                            <div class="slide slide-1">
+                                <div class="one-third column">
+                                    <h2 class="welcome">online order</h2>
+                                    <p class="intro under">Step 1</p>
+                                    <p class="intro">
+                                        <!--panel1-->RE-MAZ is proud to announce the new online order system! just fill out your info, including the fruit you want in your personlized shake and I will get an email with that information. Your smoothie will be available during the next opening hours of RE-MAZ.</p>
+                                    <div class="prompt">
+                                        <h3>Please enter name:</h3>
+                                    </div>
+                                    <div class="name input">
+                                        <label for="name" class="required"></label>
+                                        <input type="text" name="name" id="name" required="" title="Please enter your name" autocomplete="off">
+                                    </div>
+                                    <div class="btn-banner" id="one">
+                                        <div class="next-btn">
+                                            <button id="advance-1" class="advance next ui-state-disabled ui-button ui-corner-all ui-widget ui-button-disabled" disabled="">
+                            Next</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide-2">
+                                <div class="one-third column">
+                                    <p class="intro under">Step 2</p>
+                                    <p class="intro">Order details (pick and choose)</p>
+                                    <div id="order">
+                                        <div class="radio" id="base-options">
+                                            <p>Base: (spring juice)</p>
+                                            <div class="radio-btn ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" id="base" role="toolbar">
+                                                <label class="top-left bottom-left ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="base" value="mango" id="mango" class="ui-checkboxradio ui-helper-hidden-accessible">
+                                Mango</label>
+                                                <label class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="base" value="peach" id="peach" class="ui-checkboxradio ui-helper-hidden-accessible">
+                              Peach</label>
+                                                <label class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="base" value="apple" id="apple" class="ui-checkboxradio ui-helper-hidden-accessible">
+                              Apple</label>
+                                                <label class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="base" value="pineapple-banana" id="pineapple-banana" class="ui-checkboxradio ui-helper-hidden-accessible"> 
+                                Tropical</label><label class="top-right bottom-right ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="base" value="orange" id="orange" class="ui-checkboxradio ui-helper-hidden-accessible">
+                                Orange</label>
+                                            </div>
+                                        </div>
+                                        <p style="margin-top: 2em">MAIN FRUITS:</p>
+                                        <div class="chkbx ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" id="check-one" role="toolbar">
+                                            <div><label for="checkbox-nested-1" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-1" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Strawberry">Strawberry
+			
+		</label>
+                                                <label for="checkbox-nested-2" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-2" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Mango">Mango
+			
+		</label>
+                                                <label for="checkbox-nested-3" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-3" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Banana">Banana
+			
+		</label>
+                                                <label for="checkbox-nested-4" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-4" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Passion-fruit">Passion fruit
+			
+                                    </label></div><br>
+                                            <div><label for="checkbox-nested-5" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-5" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Cherry">Cherry
+			
+		</label>
+                                                <label for="checkbox-nested-6" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-6" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Blueberry">Blueberry
+			
+		</label>
+                                                <label for="checkbox-nested-7" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-7" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Pineapple">Pineapple 
+			
+		</label>
+                                                <label for="checkbox-nested-8" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list[]" id="checkbox-nested-8" class="main ui-checkboxradio ui-helper-hidden-accessible" value="Peach">Peach
+			
+                                </label></div>
+                                        </div>
+                                        <p>Add-ons:</p>
+                                        <div class="chkbx ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" id="check-two" role="toolbar">
+                                            <div>
+                                                <div><label for="checkbox-nested-9" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list2[]" id="checkbox-nested-9" class="add ui-checkboxradio ui-helper-hidden-accessible" value="Brotein-powder">Brotein powder
+			
+		</label>
+                                                    <label for="checkbox-nested-10" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list2[]" id="checkbox-nested-10" class="add ui-checkboxradio ui-helper-hidden-accessible" value="Chocolate-chips">Chocolate chips
+			
+                                    </label></div><br>
+                                                <div>
+                                                    <label for="checkbox-nested-11" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list2[]" id="checkbox-nested-11" class="add ui-checkboxradio ui-helper-hidden-accessible" value="Peanut-butter">Peanut butter
+			
+		</label>
+                                                    <label for="checkbox-nested-12" class="ui-button ui-widget ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="checkbox" name="check_list2[]" id="checkbox-nested-12" class="add ui-checkboxradio ui-helper-hidden-accessible" value="coconut-shaves">Coconut shaves
+			 
+                                    </label></div>
+                                            </div>
+                                        </div>
+                                        <div id="price" class="intro price">
+                                        </div>
+                                        <div class="btn-banner" id="two">
+                                            <div class="pre-btn">
+                                                <button class="advance pre ui-button ui-corner-all ui-widget">
+                                Previous</button></div>
+                                            <div class="next-btn">
+                                                <button class="advance next ui-state-disabled ui-button ui-corner-all ui-widget ui-button-disabled" id="advance-2" disabled="">
+                            Next</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide-3">
+                                <div class="one-third column">
+                                    <div>
+                                        <p class="intro under">Step 3</p>
+                                        <!--third slide-->
+                                        <div class="radio" id="time-options">
+                                            <p>Time (mod)</p>
+                                            <div class="radio-btn ui-controlgroup ui-controlgroup-horizontal ui-helper-clearfix" id="time" role="toolbar">
+                                                <label class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="time" value="lunch" id="lunch" class="ui-checkboxradio ui-helper-hidden-accessible">
+                             Lunch (3:30 - 3:50)</label>
+                                                <label class="ui-button ui-widget ui-checkboxradio-radio-label ui-checkboxradio-label ui-controlgroup-item"><span class="ui-checkboxradio-icon ui-corner-all ui-icon ui-icon-background ui-icon-blank"></span><span class="ui-checkboxradio-icon-space"> </span><input type="radio" name="time" value="night" id="night" class="ui-checkboxradio ui-helper-hidden-accessible"> 
+                                Night (10:30 - 12:00)</label>
+                                            </div>
+                                        </div>
+                                        <div id="alm-done">
+                                            <p>Now just input your email and get your shake at the most convenient for YOU!</p>
+                                        </div>
+                                        <div class="email input">
+                                            <label for="email" class="required"></label>
+                                            <input type="email" name="email" id="email" required="" title="Please enter your email" autocomplete="off" placeholder="enter your email">
+                                        </div>
+                                        <div id="price1" class="intro price">
+                                        </div>
+                                        <div class="btn-banner">
+                                            <div class="pre-btn">
+                                                <button class="advance pre ui-button ui-corner-all ui-widget">
+                                Previous</button></div>
+                                            <div class="submit1">
+                                                <input type="submit" value="RE-MAZ!" class="submit-btn1 ui-button ui-corner-all ui-widget" id="submit1" name="submit" role="button">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slide slide-4">
+                                <div class="one-third column">
+                                    <div id="complete1">
+                                        <p class="intro under">Done!!</p>
+                                        <div id="order">
+                                            <p class="intro">Order details;</p>
+                                            <div class="name1">
+                                                <p>Name: <span id="name1"></span></p>
+                                            </div>
+                                            <div class="base1">
+                                                <p>Base: <span id="base1"></span></p>
+                                            </div>
+                                            <div class="main1">
+                                                <p>Main: <span id="main1"></span></p>
+                                            </div>
+                                            <div class="add-on1">
+                                                <p>Add-on(s): <span id="add-on1"></span></p>
+                                            </div>
+                                            <div class="time1">
+                                                <p>Time: <span id="time1"></span></p>
+                                            </div>
+                                            <div class="email1">
+                                                <p>Email: <span id="email1"></span></p>
+                                            </div>
+                                        </div>
+                                        <div class="btn-banner">
+                                            <div class="begin-btn">
+                                                <button class="begin advance ui-button ui-corner-all ui-widget" id="begin">
+                              Restart</button></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="progressbar" role="progressbar" aria-valuemin="0" class="ui-progressbar ui-corner-all ui-widget ui-widget-content" aria-valuemax="100" aria-valuenow="0"><div class="ui-progressbar-value ui-corner-left ui-widget-header" style="display: none; width: 0%;"></div></div>
+                </div>
+            </form>
+        </section>
+        <!--RANDOM OPTION and set checked after combo is selected-->
+        <script src="./fdhsghf_files/jquery.js.download"></script>
+        <script src="./fdhsghf_files/jquery-ui.js.download"></script>
+        <script src="./fdhsghf_files/validation.js.download">
+
+
+        </script>
+        <script src="./fdhsghf_files/slider.js.download"></script>
+        <script>
+            $(".radio-btn").buttonset();
+            $(".chkbx").buttonset();
+            $(".advance").button();
+            $(".submit-btn1").button();
+            $("begin").button();
+
+        </script>
+
+    
+
+    
+</body></html>
